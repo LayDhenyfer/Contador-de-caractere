@@ -47,3 +47,10 @@ p>span {
     color: #e9bed3;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 800px) {
+    form textarea,
+    form input {
+        max-width: 400px;
+    }
+}
